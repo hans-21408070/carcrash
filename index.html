@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600;700&family=Overpass:wght@300;700&family=STIX+Two+Text&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/themes/light.css" />
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.9.0/cdn/shoelace-autoloader.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Fatal Crashes</title>
+</head>
+
+<body>
+  <!------------------------ Start ------------------------>
+  <div class="section logo">
+    <div class="icon"></div>
+    <h1 class="head">Road<span>Safety</span></h1>
+  </div>
+  <!------------------------ Home ------------------------>
+    <div class="section section-causes">
+      <img src="images/shadows.png" alt="shadow-bg" class="shadow">
+      <ul class="col-one-cause">
+        <li>Your okay</li>
+        <li class="zigzag">You live close from here</li>
+        <li>Drive faster, beat this guy</li>
+        <li class="zigzag">I'm gonna be late</li>
+      </ul>
+          <img src="images/character-normal.png" alt="normal" class="character-img">
+      <ul class="col-two-cause">
+        <li>You only drank a bit</li>
+        <li class="zigzag">No one will know if you drink</li>
+        <li>You drove us here, drive us back</li>
+      </ul>
+    </div>
+
+  <!------------------------ Impact ------------------------>
+  <div class="section section-impact">
+    <img src="images/shadows.png" alt="shadow-bg" class="shadow2">
+    <ul class="col-one">
+      <li>I'm Told Him Not to drive</li>
+      <li class="zigzag">We were having fun</li>
+      <li>20KM is not so fast</li>
+      <li class="zigzag">There Wasn't Anyone On The Road</li>
+    </ul>
+
+      <img src="images/character-injured.png" alt="injured" class="character-img2">
+ 
+      <ul class="col-two">
+      <li>He Had One Bottle</li>
+      <li class="zigzag">Just Wanted To Impress People</li>
+      <li>It's Fun Going Out and Partying</li>
+    </ul>
+  </div>
+
+
+  <div class="section section-injuries">
+    <img src="images/character-injured.png" alt="injured" class="character-img-impact">
+    <div class="injuries-to-character">
+      <div class="cards card-common">
+        <h2>Common injuries</h2>
+        <p>Common injuries that a person can get from a accident are sprains, strains, brusing, muscle damage.</p>
+      </div>
+      <div class="cards card-minor">
+       <h2>Minor injuries</h2>
+       <p>Minor injuries that a person can have are pain in your neck, shoulders, headaches, muscle ache or sprains. </p>
+      </div>
+      <div class="cards card-major">
+        <h2>Major injuries</h2>
+        <p>Major injuries that a person can have are brain injury, back, broken bones, broken limbs, burns, internal bleeding, internal injuries, disk break, concussion, etc.</p>
+      </div>
+    </div>
+  </div>
+
+
+    <!------------------------ Statistics ------------------------>
+    <div class="section section-statistics">
+      <div class="col-table">
+        <div class="stats-col top">
+          <!--- Shoelace progress circle --->
+         <div class="stats-col-outer-circle">
+            <sl-progress-ring value="70" style="--track-color: #fff;--indicator-color: #f09f35;"> 
+             <div class="stats-number">70%</div>
+            </sl-progress-ring>
+         </div>
+
+          <h2>Gender Statistics</h2>
+          <p><span>Males</span>are more likely to be caught speeding or drink driving compared to women, 
+            a three times chance for males.</p>
+        </div>
+
+      <div class="stats-col mid">
+        <!--- Shoelace progress circle --->
+        <div class="stats-col-outer-circle"> 
+          <sl-progress-ring value="4" style="--track-color: #fff;--indicator-color: #f09f35;">
+            <div class="stats-number">4%</div>
+          </sl-progress-ring>
+        </div>
+
+        <h2>Age Statistics</h2>
+        <p><span>Ages</span> between the 20 to 24 are more likely to be prone to such causes and impacts, 
+          youths are ten times more likely compared to other generational ages.</p>
+      </div>
+
+      <div class="stats-col bottom">
+        <!--- Shoelace progress circle --->
+        <div class="stats-col-outer-circle">
+          <sl-progress-ring value="29" style="--track-color: #fff;--indicator-color: #f09f35;">
+            <div class="stats-number">29%</div>
+          </sl-progress-ring>
+        </div>
+        <h2>Accident Statistic</h2>
+        <p> <span>Accidents</span> within the year of 2021 have totaled in 12,300 world wide, to put in 
+          perspective 33 people per day</p>
+      </div>
+      
+      <!------------------------ More Information SHOELACE AND TOOLTIP ------------------------>
+      <sl-drawer label="Drawer" class="drawer-overview" style="--size: 50vw; ">
+        <div style="color: var(--sl-color-neutral-1000);">
+      <!------------------------ Gallery lightbox ------------------------>
+          <div class="gallery">
+        <p>Pictures of injuried people</p>
+          <a data-fslightbox="gallery" href="https://images.unsplash.com/photo-1591362894747-aee16e328af6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8Ymxvb2R8fHx8fHwxNjk4NTgxMTU5&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1000">
+            <img src="https://images.unsplash.com/photo-1591362894747-aee16e328af6?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8Ymxvb2R8fHx8fHwxNjk4NTgxMTU5&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1000" alt="">
+          </a>
+          <a data-fslightbox="gallery" href="https://images.unsplash.com/photo-1586302670664-e8c8174985e5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3V0fHx8fHx8MTY5ODU4MTEzNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1000">
+            <img src="https://images.unsplash.com/photo-1586302670664-e8c8174985e5?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3V0fHx8fHx8MTY5ODU4MTEzNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1000" alt="">
+          </a>
+          <a data-fslightbox="gallery" href="https://images.unsplash.com/photo-1446587081170-71f025fc7d91?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3Jhc2h8fHx8fHwxNjk4NTgxMTc3&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1000">
+           <img src="https://images.unsplash.com/photo-1446587081170-71f025fc7d91?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8Y3Jhc2h8fHx8fHwxNjk4NTgxMTc3&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1000" alt="">
+          </a>
+          </div>
+        </div>
+        <sl-button slot="footer" variant="primary">Close</sl-button>
+      </sl-drawer>
+
+      <!--- Shoelace --->
+      <sl-tooltip content="top" placement="top">
+          <sl-button class="more-info-btn">More Information</sl-button>
+       </sl-tooltip>
+      </div>
+    </div>
+
+
+    <!------------------------ Preventions ------------------------>
+    <div class="section section-preventions">
+      <div class="table-col">
+        <div class="col awareness">
+         <img src="images/Asset 3.png" alt="awareness campaign" class="icon-img">
+         <p><span>Awareness campaign</span><br>Having advertisements of the situation and explaining 
+          through information and imagery to help users understand and causes</p>
+       </div>
+
+        <div class="col DUI">
+         <img src="images/Asset 1.png" alt="drinking when driving" class="icon-img">
+          <p><span>Don't Drink Under Influence</span><br>Having someone with you who is sober is idea, 
+            if you are a little bit hazed or tips and only drank a sip or so, DO NOT DRIVE, call for someone</p>
+        </div>
+
+        <div class="col monitoring">
+         <img src="images/Asset 4.png" alt="monitoring road" class="icon-img">
+          <p><span>Monitoring the Road</span><br>For both speeding and DUI high influence of motoring and speed 
+            preventions are in placed to stop users.</p>
+        </div>
+      </div>
+    </div>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="js/fslightbox.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
